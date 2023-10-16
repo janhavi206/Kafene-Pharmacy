@@ -15,7 +15,7 @@ $(document).ready(function(){
                 password : password.value
             }
             localStorage.setItem('userInfo',JSON.stringify(obj));
-            location.assign('/orders-page.html');
+            location.assign('orders-page.html');
         }
         else{
             alert('Please enter valid credential!');
